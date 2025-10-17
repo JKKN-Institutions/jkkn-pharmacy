@@ -48,7 +48,7 @@ export default function Header() {
                         margin: 0 !important;
                     }
                     .navbar {
-                        padding: 8px 15px !important;
+                        padding: 0px 15px !important;
                         margin: 0 !important;
                         display: flex !important;
                         justify-content: space-between !important;
