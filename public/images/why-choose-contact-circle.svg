@@ -1,0 +1,6 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="100" cy="100" r="95" fill="#73ED7C" stroke="#042A2D" stroke-width="10"/>
+<path d="M100 50C77.9086 50 60 67.9086 60 90C60 120 100 150 100 150C100 150 140 120 140 90C140 67.9086 122.091 50 100 50ZM100 100C94.4772 100 90 95.5228 90 90C90 84.4772 94.4772 80 100 80C105.523 80 110 84.4772 110 90C110 95.5228 105.523 100 100 100Z" fill="#042A2D"/>
+<text x="100" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#042A2D" font-weight="bold">Contact</text>
+<text x="100" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#042A2D" font-weight="bold">Now</text>
+</svg>
