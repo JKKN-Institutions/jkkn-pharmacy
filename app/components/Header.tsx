@@ -213,13 +213,9 @@ export default function Header() {
                     <nav className="navbar navbar-expand-lg">
                         <div className="container-fluid">
                             {/* Logo Start */}
-                            <Link href="/" className="navbar-brand">
-                                <img 
-                                    src="/images/logo.png" 
-                                    alt="Logo" 
-                                    className="header-logo"
-                                />
-                            </Link>
+                            <a className="navbar-brand" href="./">
+                                <img src="/images/logo.png" alt="Logo" style={{ maxHeight: '50px', width: 'auto' }} />
+                            </a>
                             {/* Logo End */}
 
                             {/* Mobile Menu Toggle Button */}
@@ -227,6 +223,8 @@ export default function Header() {
                                 className="mobile-menu-toggle" 
                                 onClick={toggleMobileMenu}
                                 aria-label="Toggle mobile menu"
+                                aria-expanded={isMobileMenuOpen}
+                                aria-controls="main-menu"
                             >
                                 {isMobileMenuOpen ? '✕' : '☰'}
                             </button>
@@ -234,7 +232,7 @@ export default function Header() {
                             {/* Main Menu Start */}
                             <div className={`collapse navbar-collapse main-menu ${isMobileMenuOpen ? 'show' : ''}`}>
                                 <div className="nav-menu-wrapper" style={{ display: 'flex', flexDirection: 'column' }}>
-                                    <ul className="navbar-nav mr-auto" id="menu" style={{ display: 'flex', flexWrap: 'wrap', maxHeight: '85px' }}>
+                                    <ul className="navbar-nav mr-auto" id="main-menu" style={{ display: 'flex', flexWrap: 'wrap', maxHeight: '85px' }}>
                                         <li className="nav-item "><Link className="nav-link" href="/">Home</Link></li>
                                         <li className={`nav-item submenu ${activeSubmenu === 'about' ? 'mobile-active' : ''}`}>
                                             <a className="nav-link" href="/about" onClick={(e) => {
@@ -258,9 +256,9 @@ export default function Header() {
                                                 <li className="nav-item"><a className="nav-link" href="/about/quality-policy">Quality Policy</a></li>
                                                 <li className="nav-item"><a className="nav-link" href="/about/generalrules-and-regulations">General Rules and Regulations</a></li>
                                                 <li className="nav-item submenu"><a className="nav-link" href="">Afiliation Details</a>
-                                                <ul>
-                                                    <li className="nav-item"><a className="nav-link" href="/about/recognition-approval-accrediation">Recognition approval accrediation</a></li>
-                                                </ul>
+                                                    <ul>
+                                                        <li className="nav-item"><a className="nav-link" href="/about/recognition-approval-accrediation">Recognition approval accrediation</a></li>
+                                                    </ul>
                                                 </li>
                                                 <li className="nav-item"><a className="nav-link" href="/about/institutional-development-plan">Institutional Development Plan</a></li>
                                                 <li className="nav-item"><a className="nav-link" href="">Institutional Strategic Plan</a></li>
@@ -478,3 +476,6 @@ export default function Header() {
         </>
     );
 }
+
+
+
