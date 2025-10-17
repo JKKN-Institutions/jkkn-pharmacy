@@ -63,7 +63,7 @@ export default function ContactPage() {
                     {/* Section Title Start */}
                     <div className="section-title">
                         <h3 className="wow fadeInUp">get in touch</h3>
-                        <h2 className="wow fadeInUp" data-wow-delay="0.25s">Let's work together to create <span>the life and business</span></h2>
+                        <h2 className="wow fadeInUp" data-wow-delay="0.25s">Join our <span>college</span></h2>
                     </div>
                     {/* Section Title End */}
                 </div>
@@ -76,7 +76,7 @@ export default function ContactPage() {
                         {/* Contact Us Title Start */}
                         <div className="contact-us-title">
                             <h3 className="wow fadeInUp">send a message</h3>
-                            <p className="wow fadeInUp" data-wow-delay="0.2s">Unlock your potential with expert guidance! Schedule a free consultation toward personal and business success.</p>
+                            <p className="wow fadeInUp" data-wow-delay="0.2s">Unlock your future in pharmacy! Schedule a free consultation to start your journey toward success.</p>
                         </div>
                         {/* Contact Us Title End */}
 
@@ -129,7 +129,7 @@ export default function ContactPage() {
                             {/* Contact Info Contact Start */}
                             <div className="contact-info-contant">
                                 <h3>call us</h3>
-                                <p>Call us today for personalized coaching and transformative growth!</p>
+                                
                             </div>
                             {/* Contact Info Contact End */}
 
@@ -140,7 +140,7 @@ export default function ContactPage() {
                                 </div>
 
                                 <div className="contact-info-title">
-                                    <h3>+1 840 841 256</h3>
+                                    <h3>+919345855001</h3>
                                 </div>
                             </div>
                             {/* Contact Info Body End */}
@@ -152,7 +152,7 @@ export default function ContactPage() {
                             {/* Contact Info Contact Start */}
                             <div className="contact-info-contant">
                                 <h3>email us</h3>
-                                <p>Email us now for expert coaching and tailored growth solutions!</p>
+                                
                             </div>
                             {/* Contact Info Contact End */}
 
@@ -163,7 +163,7 @@ export default function ContactPage() {
                                 </div>
 
                                 <div className="contact-info-title">
-                                    <h3>info@domain.com</h3>
+                                    <h3>pharmacy@jkkn.ac.in</h3>
                                 </div>
                             </div>
                             {/* Contact Info Body End */}
@@ -175,7 +175,7 @@ export default function ContactPage() {
                             {/* Contact Info Contact Start */}
                             <div className="contact-info-contant">
                                 <h3>visit us</h3>
-                                <p>Visit us for personalized coaching and guidance toward lasting success!</p>
+                                
                             </div>
                             {/* Contact Info Contact End */}
 
@@ -186,7 +186,7 @@ export default function ContactPage() {
                                 </div>
 
                                 <div className="contact-info-title">
-                                    <h3>785 15h Street, Office 478 Berlin, De 81566 </h3>
+                                    <h3>JKKN COLLEGE OF PHARMACY Natarajapuram, NH-544 (Salem To Coimbatore National Highway), Kumarapalayam (TK), Namakkal (DT). Tamil Nadu – 638183. </h3>
                                 </div>
                             </div>
                             {/* Contact Info Body End */}
@@ -207,8 +207,7 @@ export default function ContactPage() {
                 <div className="col-lg-12">
                     {/* Google Map Iframe Start */}
                     <div className="google-map-iframe">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96737.10562045308!2d-74.08535042841811!3d40.739265258395164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1703158537552!5m2!1sen!2sin"
-                            allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12077.703432975773!2d77.727798!3d11.4447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9681dbc1ee209%3A0x3f44c8e40841c21b!2sJKKN%20College%20of%20Pharmacy!5e1!3m2!1sen!2sin!4v1760699936437!5m2!1sen!2sin" width="600" height="450" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     {/* Google Map Iframe End */}
                 </div>
@@ -217,153 +216,7 @@ export default function ContactPage() {
     </div>
     {/* Google Map End */}
 
-    {/* Our FAQs Section Start */}
-    <div className="our-faqs">
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-6">
-                    {/* Our FAQs Content Start */}
-                    <div className="our-faqs-content">
-                        {/* Section Title Start */}
-                        <div className="section-title">
-                            <h3 className="wow fadeInUp">FAQ</h3>
-                            <h2 className="wow fadeInUp" data-wow-delay="0.25s">Your coaching questions <span>answered simply here</span></h2>
-                        </div>
-                        {/* Section Title End */}
-
-                        {/* FAQs CTA Box Start */}
-                        <div className="faqs-cta-box wow fadeInUp" data-wow-delay="0.75s">
-                            {/* Company Client Images Start */}
-                            <div className="company-client-images">
-                                <div className="client-image">
-                                    <figure className="image-anime">
-                                        <img src="/images/satisfy-client-img-1.jpg" alt="" />
-                                    </figure>
-                                </div>
-                                <div className="client-image">
-                                    <figure className="image-anime">
-                                        <img src="/images/satisfy-client-img-2.jpg" alt="" />
-                                    </figure>
-                                </div>
-                                <div className="client-image">
-                                    <figure className="image-anime">
-                                        <img src="/images/satisfy-client-img-3.jpg" alt="" />
-                                    </figure>
-                                </div>
-                                <div className="client-image">
-                                    <figure className="image-anime">
-                                        <img src="/images/satisfy-client-img-4.jpg" alt="" />
-                                    </figure>
-                                </div>
-                                <div className="client-image">
-                                    <figure className="image-anime">
-                                        <img src="/images/satisfy-client-img-5.jpg" alt="" />
-                                    </figure>
-                                </div>
-                            </div>
-                            {/* Company Client Images End */}
-                            <div className="faqs-cta-content">
-                                <h3>Still have you any question?</h3>
-                                <p>We're ready to help you to answer any questions.</p>
-                                <a href="tel:789859664" className="btn-phone"><i className="fa-solid fa-phone-volume"></i>+01 789 859 664</a>
-                            </div>
-                        </div>
-                        {/* FAQs CTA Box End */}
-                    </div>
-                    {/* Our FAQs Content End */}
-                </div>
-
-                <div className="col-lg-6">
-                    <div className="our-faq-section">
-                        {/* FAQ Accordion Start */}
-                        <div className="faq-accordion" id="faqaccordion">
-                            {/* FAQ Item Start */}
-                            <div className="accordion-item wow fadeInUp">
-                                <h2 className="accordion-header" id="heading1">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                        What is a Life & Business Coach?
-                                    </button>
-                                </h2>
-                                <div id="collapse1" className="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faqaccordion">
-                                    <div className="accordion-body">
-                                        <p>Coaching focuses on future goals, actionable steps, and personal development. While therapy often deals with healing past issues, coaching is more about improving present circumstances and building a path forward.
-                                            Coaches do not diagnose or treat mental health conditions.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* FAQ Item End */}
-
-                            {/* FAQ Item Start */}
-                            <div className="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                                <h2 className="accordion-header" id="heading2">
-                                    <button className="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                        How does coaching differ from therapy?
-                                    </button>
-                                </h2>
-                                <div id="collapse2" className="accordion-collapse collapse show" aria-labelledby="heading2" data-bs-parent="#faqaccordion">
-                                    <div className="accordion-body">
-                                        <p>Coaching focuses on future goals, actionable steps, and personal development. While therapy often deals with healing past issues, coaching is more about improving present circumstances and building a path forward.
-                                            Coaches do not diagnose or treat mental health conditions.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* FAQ Item End */}
-
-                            {/* FAQ Item Start */}
-                            <div className="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-                                <h2 className="accordion-header" id="heading3">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                        Who can benefit from life and business coaching? 
-                                    </button>
-                                </h2>
-                                <div id="collapse3" className="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#faqaccordion">
-                                    <div className="accordion-body">
-                                        <p>Coaching focuses on future goals, actionable steps, and personal development. While therapy often deals with healing past issues, coaching is more about improving present circumstances and building a path forward.
-                                            Coaches do not diagnose or treat mental health conditions.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* FAQ Item End */}
-
-                            {/* FAQ Item Start */}
-                            <div className="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-                                <h2 className="accordion-header" id="heading4">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                        How long does the coaching process take?
-                                    </button>
-                                </h2>
-                                <div id="collapse4" className="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faqaccordion">
-                                    <div className="accordion-body">
-                                        <p>Coaching focuses on future goals, actionable steps, and personal development. While therapy often deals with healing past issues, coaching is more about improving present circumstances and building a path forward.
-                                            Coaches do not diagnose or treat mental health conditions.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* FAQ Item End */}
-
-                            {/* FAQ Item Start */}
-                            <div className="accordion-item wow fadeInUp" data-wow-delay="0.8s">
-                                <h2 className="accordion-header" id="heading5">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                        Can coaching help my business grow?
-                                    </button>
-                                </h2>
-                                <div id="collapse5" className="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#faqaccordion">
-                                    <div className="accordion-body">
-                                        <p>Coaching focuses on future goals, actionable steps, and personal development. While therapy often deals with healing past issues, coaching is more about improving present circumstances and building a path forward.
-                                            Coaches do not diagnose or treat mental health conditions.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* FAQ Item End */}
-                        </div>
-                        {/* FAQ Accordion End */}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    {/* Our FAQs Section End */}
+    <br/>
 
     <Footer />
     {/* Jquery Library File */}
