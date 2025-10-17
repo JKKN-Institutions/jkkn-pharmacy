@@ -26,6 +26,10 @@ export default function Home() {
                     position: relative;
                     z-index: 1000;
                 }
+                .hero .hero-btn {
+                    position: relative;
+                    z-index: 1001;
+                }
             `}</style>
 
             <Header />
@@ -46,10 +50,10 @@ export default function Home() {
                                     {/* Section Title End */}
 
                                     {/* Hero Button Start */}
-                                    <div className="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                                        <a href="" className="btn-default">get in touch</a>
-                                        <a href="" className="btn-default btn-highlighted">explore more</a>
-                                    </div>
+                                    {/* <div className="hero-btn wow fadeInUp" data-wow-delay="0.4s">
+                                        <a href="/contact" className="btn-default">get in touch</a>
+                                        <a href="/about/about-us-overview" className="btn-default btn-highlighted">explore more</a>
+                                    </div> */}
                                     {/* Hero Button End */}
                                 </div>
                                 {/* Hero Content End */}
