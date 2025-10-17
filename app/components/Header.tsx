@@ -163,12 +163,13 @@ export default function Header() {
                 @media (max-width: 991px) {
                     .mobile-menu-toggle {
                         display: block;
-                        background: none;
+                        background: linear-gradient(263deg, var(--accent-color) 0.16%, var(--dark-color) 99.84%);
                         border: none;
                         font-size: 24px;
-                        color: #333;
+                        color: #fff;
                         cursor: pointer;
                         padding: 5px 10px;
+                        border-radius: 8px;
                         margin: 0 0 0 auto !important; /* push to right */
                     }
                 }
